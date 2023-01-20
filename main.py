@@ -11,7 +11,7 @@ import pandas as pd
 import datetime
 import time
 import mysql.connector as c
-con = c.connect(host="localhost", user="root",passwd = "payphone123@007", database="attendance_system")
+con = c.connect(host="localhost", user="root",passwd = "", database="attendance_system")
 cur=con.cursor()
 # def attendance(id, name, date):
 #     query="Insert into attendance values({}, '{}', {}, {})".format(id,name,date,1)
